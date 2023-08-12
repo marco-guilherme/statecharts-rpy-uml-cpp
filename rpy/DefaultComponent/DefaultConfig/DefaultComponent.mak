@@ -73,7 +73,8 @@ ADDITIONAL_OBJS=
 
 OBJS= \
   Class1.obj \
-  Class2.obj
+  Class2.obj \
+  Class3.obj
 
 
 
@@ -166,6 +167,12 @@ Class2.obj : Class2.cpp Class2.h
 
 
 
+Class3.obj : Class3.cpp Class3.h    
+	$(CREATE_OBJ_DIR)
+	$(CPP) $(ConfigurationCPPCompileSwitches)  /Fo"Class3.obj" "Class3.cpp" 
+
+
+
 
 
 
@@ -195,6 +202,7 @@ clean:
 	@echo Cleanup
 	if exist Class1.obj erase Class1.obj
 	if exist Class2.obj erase Class2.obj
+	if exist Class3.obj erase Class3.obj
 	if exist $(TARGET_MAIN)$(OBJ_EXT) erase $(TARGET_MAIN)$(OBJ_EXT)
 	if exist *$(OBJ_EXT) erase *$(OBJ_EXT)
 	if exist $(TARGET_NAME).pdb erase $(TARGET_NAME).pdb
