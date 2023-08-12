@@ -5,8 +5,36 @@ I-Logix-RPY-Archive version 8.6.0 * 2071527
 	}
 	- isLoadOnDemand = 0;
 	- myViewsWithID = { IRPYRawContainer 
-		- size = 1;
+		- size = 2;
 		- value = 
+		{ CGEMdiDiagramParams 
+			- _placement = { CCommon_WINDOWPLACEMENT 
+				- m_nLength = 44;
+				- m_nFlags = 0;
+				- m_showCmd = 1;
+				- m_ptMinPositionX = -1;
+				- m_ptMinPositionY = -1;
+				- m_ptMaxPositionX = -4;
+				- m_ptMaxPositionY = -23;
+				- m_nLeft = 110;
+				- m_nTop = 110;
+				- m_nRight = 678;
+				- m_nBottom = 424;
+			}
+			- _wasOpenedOnCloseProject = 1;
+			- _theDiagram = { IHandle 
+				- _m2Class = "IStateChartDiagram";
+				- _filename = "Default.sbs";
+				- _subsystem = "Default";
+				- _class = "Class2";
+				- _name = "StatechartDiagram";
+				- _id = GUID 441171e0-49ed-42b5-ac11-f27ac1352e95;
+			}
+			- _UpLeft = 0 0 ;
+			- _DownRight = 540 267 ;
+			- _instanceName = "";
+			- m_nDiagramIndex = 0;
+		}
 		{ CGEMdiDiagramParams 
 			- _placement = { CCommon_WINDOWPLACEMENT 
 				- m_nLength = 44;
@@ -31,9 +59,9 @@ I-Logix-RPY-Archive version 8.6.0 * 2071527
 				- _id = GUID 8ae35e5b-46b1-4e8a-a8ca-2e26f9eaa5da;
 			}
 			- _UpLeft = 0 0 ;
-			- _DownRight = 680 386 ;
+			- _DownRight = 680 426 ;
 			- _instanceName = "";
-			- m_nDiagramIndex = 0;
+			- m_nDiagramIndex = 1;
 		}
 	}
 	- _fullName = "Z:\\shared-folder\\rhapsody-projects\\statecharts-rpy-uml-cpp\\rpy\\statecharts";

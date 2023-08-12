@@ -72,7 +72,8 @@ INCLUDE_PATH= \
 ADDITIONAL_OBJS=
 
 OBJS= \
-  Class1.obj
+  Class1.obj \
+  Class2.obj
 
 
 
@@ -159,6 +160,12 @@ Class1.obj : Class1.cpp Class1.h
 
 
 
+Class2.obj : Class2.cpp Class2.h    
+	$(CREATE_OBJ_DIR)
+	$(CPP) $(ConfigurationCPPCompileSwitches)  /Fo"Class2.obj" "Class2.cpp" 
+
+
+
 
 
 
@@ -187,6 +194,7 @@ $(TARGET_NAME)$(LIB_EXT) : $(OBJS) $(ADDITIONAL_OBJS) DefaultComponent.mak
 clean:
 	@echo Cleanup
 	if exist Class1.obj erase Class1.obj
+	if exist Class2.obj erase Class2.obj
 	if exist $(TARGET_MAIN)$(OBJ_EXT) erase $(TARGET_MAIN)$(OBJ_EXT)
 	if exist *$(OBJ_EXT) erase *$(OBJ_EXT)
 	if exist $(TARGET_NAME).pdb erase $(TARGET_NAME).pdb

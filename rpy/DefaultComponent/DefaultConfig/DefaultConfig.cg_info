@@ -1,12 +1,23 @@
 I-Logix-RPY-Archive version 8.6.0 * 2071527
 
 - m_fileModifyTime = { IRPYRawContainer 
-	- size = 2;
-	- value = "DefaultComponent\\DefaultConfig\\Class1.cpp" 8.12.2023::17:0:25
-	"DefaultComponent\\DefaultConfig\\Class1.h" 8.12.2023::17:0:25
+	- size = 4;
+	- value = "DefaultComponent\\DefaultConfig\\Class1.cpp" 8.12.2023::17:13:17
+	"DefaultComponent\\DefaultConfig\\Class1.h" 8.12.2023::17:9:59
+	"DefaultComponent\\DefaultConfig\\Class2.cpp" 8.12.2023::17:13:17
+	"DefaultComponent\\DefaultConfig\\Class2.h" 8.12.2023::17:13:17
 	
 }
-- size = 2;
+- size = 3;
+- hElement = { IHandle 
+	- _m2Class = "IClass";
+	- _filename = "Default.sbs";
+	- _subsystem = "Default";
+	- _class = "";
+	- _name = "Class2";
+	- _id = GUID 0c5c573f-871f-433e-8b3c-2bfbeb58eba6;
+}
+- genTime = 8.12.2023::17:13:17;
 - hElement = { IHandle 
 	- _m2Class = "IClass";
 	- _filename = "Default.sbs";
@@ -15,7 +26,7 @@ I-Logix-RPY-Archive version 8.6.0 * 2071527
 	- _name = "Class1";
 	- _id = GUID 32f2d541-6f85-4271-8414-411f4a9afbcc;
 }
-- genTime = 8.12.2023::17:0:26;
+- genTime = 8.12.2023::17:13:17;
 - hElement = { IHandle 
 	- _m2Class = "ICodeGenConfigInfo";
 	- _filename = "DefaultComponent.cmp";
@@ -24,5 +35,5 @@ I-Logix-RPY-Archive version 8.6.0 * 2071527
 	- _name = "DefaultComponent\\DefaultConfig";
 	- _id = GUID 3a7b387d-7a37-4de9-ace8-b22c90f8ec20;
 }
-- genTime = 8.12.2023::17:0:26;
+- genTime = 8.12.2023::17:13:46;
 

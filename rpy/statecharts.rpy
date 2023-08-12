@@ -118,7 +118,7 @@ I-Logix-RPY-Archive version 8.6.0 C++ 2071527
 				}
 			}
 			- _name = "Model1";
-			- _lastModifiedTime = "8.12.2023::17:0:52";
+			- _lastModifiedTime = "8.12.2023::17:12:3";
 			- _graphicChart = { CGIClassChart 
 				- _id = GUID 0f0198ba-86cb-4068-97b3-47a5f4a74ff8;
 				- m_type = 0;
@@ -142,7 +142,7 @@ I-Logix-RPY-Archive version 8.6.0 C++ 2071527
 				}
 				- m_drawBehavior = 0;
 				- m_bIsPreferencesInitialized = 0;
-				- elementList = 2;
+				- elementList = 3;
 				{ CGIClass 
 					- _id = GUID 2f828cd1-87cc-4396-b3d1-df49eb6af72a;
 					- m_type = 78;
@@ -222,7 +222,64 @@ I-Logix-RPY-Archive version 8.6.0 C++ 2071527
 						- m_nOrientationCtrlPt = 5;
 					}
 					- m_drawBehavior = 2056;
-					- m_transform = 0.164306 0 0 0.173797 26.6714 -29.1791 ;
+					- m_transform = 0.0793201 0 0 0.101604 26.8414 9.5722 ;
+					- m_bIsPreferencesInitialized = 1;
+					- m_AdditionalLabel = { CGIText 
+						- m_str = "";
+						- m_style = "Arial" 10 0 0 0 1 ;
+						- m_color = { IColor 
+							- m_fgColor = 0;
+							- m_bgColor = 0;
+							- m_bgFlag = 0;
+						}
+						- m_position = 1 0 0  ;
+						- m_nIdent = 0;
+						- m_bImplicitSetRectPoints = 0;
+						- m_nOrientationCtrlPt = 1;
+					}
+					- m_polygon = 4 2 329  2 1451  1061 1451  1061 329  ;
+					- m_nNameFormat = 0;
+					- m_nIsNameFormat = 0;
+					- frameset = "<frameset rows=50%,50%>
+<frame name=AttributeListCompartment>
+<frame name=PrimitiveOperationListCompartment>";
+					- Compartments = { IRPYRawContainer 
+						- size = 0;
+					}
+					- Attrs = { IRPYRawContainer 
+						- size = 0;
+					}
+					- Operations = { IRPYRawContainer 
+						- size = 0;
+					}
+				}
+				{ CGIClass 
+					- _id = GUID 2601fc16-17bc-47b2-8f8f-3091d6f7b85a;
+					- m_type = 87;
+					- m_pModelObject = { IHandle 
+						- _m2Class = "IClass";
+						- _filename = "Default.sbs";
+						- _subsystem = "Default";
+						- _class = "";
+						- _name = "Class2";
+						- _id = GUID 0c5c573f-871f-433e-8b3c-2bfbeb58eba6;
+					}
+					- m_pParent = GUID 2f828cd1-87cc-4396-b3d1-df49eb6af72a;
+					- m_name = { CGIText 
+						- m_str = "Class2";
+						- m_style = "Arial" 10 0 0 0 1 ;
+						- m_color = { IColor 
+							- m_fgColor = 0;
+							- m_bgColor = 0;
+							- m_bgFlag = 0;
+						}
+						- m_position = 1 0 0  ;
+						- m_nIdent = 0;
+						- m_bImplicitSetRectPoints = 0;
+						- m_nOrientationCtrlPt = 5;
+					}
+					- m_drawBehavior = 2056;
+					- m_transform = 0.0793201 0 0 0.101604 133.841 9.5722 ;
 					- m_bIsPreferencesInitialized = 1;
 					- m_AdditionalLabel = { CGIText 
 						- m_str = "";

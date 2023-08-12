@@ -12,17 +12,23 @@
 #include "MainDefaultComponent.h"
 //## auto_generated
 #include "Class1.h"
+//## auto_generated
+#include "Class2.h"
 int main(int argc, char* argv[]) {
     int status = 0;
     if(OXF::initialize())
         {
             Class1 * p_Class1;
+            Class2 * p_Class2;
             p_Class1 = new Class1;
             p_Class1->startBehavior();
+            p_Class2 = new Class2;
+            p_Class2->startBehavior();
             //#[ configuration DefaultComponent::DefaultConfig 
             //#]
             OXF::start();
             delete p_Class1;
+            delete p_Class2;
             status = 0;
         }
     else

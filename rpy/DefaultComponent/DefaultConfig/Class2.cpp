@@ -3,55 +3,55 @@
 	Login		: Administrador
 	Component	: DefaultComponent 
 	Configuration 	: DefaultConfig
-	Model Element	: Class1
+	Model Element	: Class2
 //!	Generated Date	: Sat, 12, Aug 2023  
-	File Path	: DefaultComponent\DefaultConfig\Class1.cpp
+	File Path	: DefaultComponent\DefaultConfig\Class2.cpp
 *********************************************************************/
 
 //## auto_generated
 #include <oxf\omthread.h>
 //## auto_generated
-#include "Class1.h"
+#include "Class2.h"
 //## package Default
 
-//## class Class1
-Class1::Class1(IOxfActive* theActiveContext) {
+//## class Class2
+Class2::Class2(IOxfActive* theActiveContext) {
     setActiveContext(theActiveContext, false);
     initStatechart();
 }
 
-Class1::~Class1() {
+Class2::~Class2() {
 }
 
-bool Class1::startBehavior() {
+bool Class2::startBehavior() {
     bool done = false;
     done = OMReactive::startBehavior();
     return done;
 }
 
-void Class1::initStatechart() {
+void Class2::initStatechart() {
     rootState_subState = OMNonState;
     rootState_active = OMNonState;
 }
 
-void Class1::rootState_entDef() {
+void Class2::rootState_entDef() {
     {
+        //#[ transition 0 
+        std::cout << "Default transition in Class2" << std::endl;
+        //#]
         rootState_subState = state_0;
         rootState_active = state_0;
-        
-        // Este estado não é executado se existir outro com uma transição padrão. Se não existir, ele é executado.
-        // Se existirem dois estados e nenhuma transição padrão, um erro será gerado.
         //#[ state ROOT.state_0.(Entry) 
-        std::cout << "state_0 in Class1" << std::endl;
+        std::cout << "state_0 in Class2" << std::endl;
         //#]
     }
 }
 
-IOxfReactive::TakeEventStatus Class1::rootState_processEvent() {
+IOxfReactive::TakeEventStatus Class2::rootState_processEvent() {
     IOxfReactive::TakeEventStatus res = eventNotConsumed;
     return res;
 }
 
 /*********************************************************************
-	File Path	: DefaultComponent\DefaultConfig\Class1.cpp
+	File Path	: DefaultComponent\DefaultConfig\Class2.cpp
 *********************************************************************/

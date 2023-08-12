@@ -98,7 +98,7 @@ I-Logix-RPY-Archive version 8.6.0 C++ 2071527
 				- size = 0;
 			}
 			- InitialInstances = { IRPYRawContainer 
-				- size = 1;
+				- size = 2;
 				- value = 
 				{ IHandle 
 					- _m2Class = "IClass";
@@ -107,6 +107,14 @@ I-Logix-RPY-Archive version 8.6.0 C++ 2071527
 					- _class = "";
 					- _name = "Class1";
 					- _id = GUID 32f2d541-6f85-4271-8414-411f4a9afbcc;
+				}
+				{ IHandle 
+					- _m2Class = "IClass";
+					- _filename = "Default.sbs";
+					- _subsystem = "Default";
+					- _class = "";
+					- _name = "Class2";
+					- _id = GUID 0c5c573f-871f-433e-8b3c-2bfbeb58eba6;
 				}
 			}
 			- _root = { IFolder 
@@ -121,7 +129,7 @@ I-Logix-RPY-Archive version 8.6.0 C++ 2071527
 					- size = 0;
 				}
 			}
-			- weakCGTime = 8.12.2023::16:59:59;
+			- weakCGTime = 8.12.2023::17:13:31;
 			- strongCGTime = 8.12.2023::16:59:55;
 			- AnimScopeElements = { IRPYRawContainer 
 				- size = 0;
@@ -148,7 +156,7 @@ I-Logix-RPY-Archive version 8.6.0 C++ 2071527
 	- SelectedVariants = { IRPYRawContainer 
 		- size = 0;
 	}
-	- weakCGTime = 8.12.2023::16:57:14;
+	- weakCGTime = 8.12.2023::17:13:31;
 	- strongCGTime = 12.31.1969::22:0:0;
 }
 
