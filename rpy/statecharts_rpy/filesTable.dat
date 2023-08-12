@@ -1,0 +1,10 @@
+I-Logix-RPY-Archive version 8.6.0 * 2071527
+
+- filesTable = { IRPYRawContainer 
+	- size = 3;
+	- value = "statecharts.rpy" ""
+	"statecharts_rpy\\Default.sbs" "Default"
+	"statecharts_rpy\\DefaultComponent.cmp" "DefaultComponent"
+	
+}
+
